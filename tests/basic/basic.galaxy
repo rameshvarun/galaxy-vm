@@ -1,0 +1,10 @@
+// Basic galaxy test.
+
+void Main(int argc, string[100] argv) {
+  ConsoleLog("Basic Galaxy Test...");
+  TestFunctionA();
+}
+
+void TestFunctionA() {
+  ConsoleLog("Test Function A...");
+}

@@ -1,0 +1,16 @@
+{
+  "name": "galaxy-vm",
+  "description": "A SC2 Galaxy interpreter, written in javascript.",
+  "author": "Varun Ramesh",
+  "bin": {
+    "galaxy": "./bin/galaxy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  }
+}
